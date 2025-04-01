@@ -1,0 +1,7 @@
+[build]
+publish = "public"
+
+[[headers]]
+  for = "/.well-known/mta-sts.txt"
+  [headers.values]
+    Content-Type = "text/plain"
